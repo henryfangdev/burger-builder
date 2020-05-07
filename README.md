@@ -1,2 +1,2 @@
-# buger-builder
+# burger-builder
 A react burger builder
