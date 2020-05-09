@@ -5,9 +5,10 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
+    // https://stackoverflow.com/questions/60840340/react-component-render-called-twice-without-changing-state
+    // <React.StrictMode>
+    <App />,
+    // </React.StrictMode>,
     document.getElementById("root")
 );
 
